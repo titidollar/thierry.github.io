@@ -23,20 +23,20 @@ document.addEventListener('DOMContentLoaded', function () {
     ];
 
     const clients = [
-        { name: 'Client A', logo: 'https://via.placeholder.com/150x80' },
-        { name: 'Client B', logo: 'https://via.placeholder.com/150x80' },
-        { name: 'Client C', logo: 'https://via.placeholder.com/150x80' },
-        { name: 'Client D', logo: 'https://via.placeholder.com/150x80' }
+        { name: 'ICHINOMIYA MOTORS', logo: 'https://via.placeholder.com/150x80' },
+        { name: 'Port Autonome de Douala', logo: 'https://via.placeholder.com/150x80' },
+        { name: 'Desjardins', logo: 'https://via.placeholder.com/150x80' },
+        { name: 'SUKU', logo: 'https://via.placeholder.com/150x80' }
     ];
 
     const testimonials = [
-        {
-            quote: 'This is a fantastic service! Highly recommended.',
-            author: 'John Doe, CEO of Company X'
+        {     
+           quote: 'Thierry consistently brings innovation, experience and dedication to every project. His contributions have been essential to our company’s success.',
+           author: 'Rodrigue Lagoue, CEO of LAO'
         },
         {
-            quote: 'The team was professional, and the results were outstanding.',
-            author: 'Jane Smith, Marketing Director at Company Y'
+           quote: 'Working with Thierry has been a great experience. He is reliable, collaborative, hardworker and always delivers on time.',
+           author: 'Tchokonte Eugene, Colleague and Product Owner of LAO'
         }
     ];
 
