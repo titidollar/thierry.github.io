@@ -24,3 +24,44 @@ section {
     background-color: #d1e7dd; /* vert clair harmonieux */
 }
 
+.client-logo {
+    width: 120px;     /* largeur uniforme */
+    height: 60px;     /* hauteur uniforme */
+    object-fit: contain;  /* garde le ratio sans déformation */
+    display: block;
+    margin: 0 auto;
+    max-width: none;     /* override bootstrap .img-fluid if present */
+}
+
+ /* Centrer verticalement/horizontalement la colonne */
+  #clients .row .logo-col {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+  /* Force toutes les cards à avoir la même hauteur */
+.card {
+    height: 100%;           /* Prend toute la hauteur disponible */
+    display: flex;
+    flex-direction: column; /* Pour que le body s'étende correctement */
+}
+
+/* Pour que les éléments internes se répartissent verticalement */
+.card-body {
+    flex: 1;                /* Prend l'espace restant */
+    display: flex;
+    flex-direction: column;
+}
+
+/* Optionnel : bouton toujours en bas */
+.card-body a.btn {
+    margin-top: auto;
+}
+
+/* Image de card uniforme */
+.card-img-top {
+    height: 200px;          /* même hauteur pour toutes les images */
+    object-fit: cover;      /* garde le ratio et recadre si nécessaire */
+}

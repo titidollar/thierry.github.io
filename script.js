@@ -23,10 +23,10 @@ document.addEventListener('DOMContentLoaded', function () {
     ];
 
     const clients = [
-        { name: 'ICHINOMIYA MOTORS', logo: 'https://via.placeholder.com/150x80' },
-        { name: 'Port Autonome de Douala', logo: 'https://via.placeholder.com/150x80' },
-        { name: 'Desjardins', logo: 'https://via.placeholder.com/150x80' },
-        { name: 'SUKU', logo: 'https://via.placeholder.com/150x80' }
+        { name: 'ICHINOMIYA MOTORS', logo: 'logo.829413c3.png' },
+        { name: 'Port Autonome de Douala', logo: 'port-autonome-de-douala-logo-png_seeklogo-440536.png' },
+        { name: 'Desjardins', logo: 'img.icons8.png' },
+        { name: 'SUKU', logo: 'sukuLogo01.82346b79.png' }
     ];
 
     const testimonials = [
@@ -60,8 +60,9 @@ document.addEventListener('DOMContentLoaded', function () {
     const clientsContainer = document.querySelector('#clients .row');
     clients.forEach(client => {
         const clientLogo = `
-            <div class="col-md-3 mb-4 text-center">
-                <img src="${client.logo}" alt="${client.name}" class="img-fluid">
+            <div class="col-md-3 col-6 mb-4 text-center">
+                <img src="${client.logo}" alt="${client.name}" class="client-logo">
+                 <p class="mt-2">${client.name}</p>
             </div>
         `;
         clientsContainer.innerHTML += clientLogo;
