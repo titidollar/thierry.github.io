@@ -65,3 +65,7 @@ section {
     height: 200px;          /* même hauteur pour toutes les images */
     object-fit: cover;      /* garde le ratio et recadre si nécessaire */
 }
+
+.card-title {
+  font-weight: bold;
+}

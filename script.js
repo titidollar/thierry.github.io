@@ -2,14 +2,14 @@ document.addEventListener('DOMContentLoaded', function () {
     const caseStudies = [
         {
             title: 'Data cleaning in PostgreSQL',
-            description: 'In this project, we take take raw housing data and transform it in SQL server to make it usable for analysis',
+            description: 'In this project, we take take raw housing data and transform it in SQL server to make it usable for analysis.',
             image: 'https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60',
             gitLink: 'https://github.com/titidollar/portfolioProjects.git'
         },
         {
             title: 'Machine learning project - CIBR (Content-Based Image Retrieval System)',
             description: 'This project implements a CBIR (Content-Based Image Retrieval) system that uses deep neural networks (VGG16, ResNet50, InceptionV3)' + 
-                          ' to extract image features, followed by K-Means clustering, and a user interface for visual search..',
+                          ' to extract image features, followed by K-Means clustering, and a user interface for visual search.',
             image: 'https://images.unsplash.com/photo-1542744173-8e7e53415bb0?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60',
             gitLink: 'https://github.com/titidollar/project-CIBR.git'
         },
@@ -19,7 +19,22 @@ document.addEventListener('DOMContentLoaded', function () {
             ' a comprehensive data mining process, inspired by methodologies such as CRISP-DM or the KDD process.',
             image: 'https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60',
             gitLink: 'https://github.com/titidollar/exploratoryAnalysis.git'
-        }
+        },
+        {
+            title: 'Online practice test platform',
+            description: 'This project provides learners with an interactive platform to practice and assess their knowledge' +
+            ' across different subjects of the school curriculum. It simulates real test conditions, helping students strengthen ' + 
+            ' their understanding, track progress, and build confidence in preparation for exams.',
+            image: 'premium_photo-1661333596510-33d60b54ad80.jpg',
+            gitLink: 'https://suku.cm'
+        },
+        {
+            title: 'Sale of Pre-Owned Japanese Cars',
+            description: 'This project involves the sale of Japanese cars, covering the entire process from the online listing' +
+            ' on the website to the delivery of the vehicle to the customer’s location.',
+            image: '7tmuBl3EqoFKnygiawwpjq-3752bdeb80f2f64244c74cb2ebf48a36-beliebte-modelle-1100.jpg',
+            gitLink: 'https://ichinomiyamotors.jp/'
+        },
     ];
 
     const clients = [
